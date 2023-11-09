@@ -115,6 +115,7 @@ html {
 
 a {
   text-decoration: none;
+  font-weight: bold;
 }
 
 /**
@@ -284,6 +285,18 @@ a {
   fill: orange;
 }
 .section.section--portfolio svg.bottom {
+  top: auto;
+  bottom: -50px;
+}
+.section.section--portfolio3 {
+  background-color: rgb(192, 16, 16);
+  color: rgb(255, 255, 255);
+}
+.section.section--portfolio3 svg {
+  top: -20px;
+  background-color: rgb(255, 255, 255);
+}
+.section.section--portfolio3 svg.bottom {
   top: auto;
   bottom: -50px;
 }
@@ -573,6 +586,159 @@ p a:hover {
 }
 
 .skill6 .skill-count6 {
+  right: 0;
+}
+
+/* SKILL 7 */
+.skill7 {
+  width: 80%;
+}
+
+.skill7 .skill-count7 {
+  right: 0;
+}
+
+/* SKILL 8 */
+.skill8 {
+  width: 80%;
+}
+
+.skill8 .skill-count8 {
+  right: 0;
+}
+
+/* SKILL 9 */
+.skill9 {
+  width: 80%;
+}
+
+.skill9 .skill-count9 {
+  right: 0;
+}
+
+/* SKILL 10 */
+.skill10 {
+  width: 80%;
+}
+
+.skill10 .skill-count10 {
+  right: 0;
+}
+
+/* SKILL 11 */
+.skill11 {
+  width: 80%;
+}
+
+.skill11 .skill-count11 {
+  right: 0;
+}
+
+/* SKILL 12 */
+.skill12 {
+  width: 80%;
+}
+
+.skill12 .skill-count12 {
+  right: 0;
+}
+
+/* SKILL 13 */
+.skill13 {
+  width: 80%;
+}
+
+.skill13 .skill-count13 {
+  right: 0;
+}
+
+/* SKILL 14 */
+.skill14 {
+  width: 80%;
+}
+
+.skill14 .skill-count14 {
+  right: 0;
+}
+
+/* SKILL 15 */
+.skill15 {
+  width: 80%;
+}
+
+.skill15 .skill-count15 {
+  right: 0;
+}
+
+/* SKILL 16 */
+.skill16 {
+  width: 80%;
+}
+
+.skill16 .skill-count16 {
+  right: 0;
+}
+
+/* SKILL 17 */
+.skill17 {
+  width: 80%;
+}
+
+.skill17 .skill-count17 {
+  right: 0;
+}
+
+/* SKILL 18 */
+.skill18 {
+  width: 80%;
+}
+
+.skill18 .skill-count18 {
+  right: 0;
+}
+
+/* SKILL 19 */
+.skill19 {
+  width: 80%;
+}
+
+.skill19 .skill-count19 {
+  right: 0;
+}
+
+/* SKILL 20 */
+.skill20 {
+  width: 80%;
+}
+
+.skill20 .skill-count20 {
+  right: 0;
+}
+
+/* SKILL 21 */
+.skill21 {
+  width: 80%;
+}
+
+.skill21 .skill-count21 {
+  right: 0;
+}
+
+/* SKILL 22 */
+.skill22 {
+  width: 80%;
+}
+
+.skill22 .skill-count22 {
+  right: 0;
+}
+
+/* SKILL 23 */
+.skill23 {
+  width: 80%;
+}
+
+.skill23 .skill-count23 {
   right: 0;
 }
 
