@@ -255,7 +255,7 @@ a {
 }
 .section.section--hello {
   background-color: #52fd7d;
-  color: #181818;
+  color: #000000;
 }
 .section.section--intro {
   background-color: white;
@@ -263,7 +263,7 @@ a {
 }
 .section.section--about {
   background-color: #de5f5f;
-  color: white;
+  color: rgb(255, 255, 255);
 }
 .section.section--about svg {
   fill: #de5f5f;
@@ -466,10 +466,15 @@ p a:hover {
 }
 
 .skill > p {
-  font-size: 18px;
+  font-size: 0.8rem;
   font-weight: 700;
   color: #1a1716;
   margin: 0;
+}
+@media (min-width: 30rem) {
+  .skill > p {
+    font-size: 0.8rem;
+  }
 }
 
 .skill:before {
@@ -497,12 +502,16 @@ p a:hover {
 
 .skill-bar span {
   position: absolute;
-  border-top: 5px solid #f4392f;
   top: -30px;
   padding: 0;
-  font-size: 18px;
+  font-size: 0.8rem;
   padding: 3px 0;
   font-weight: 500;
+}
+@media (min-width: 30rem) {
+  .skill-bar span {
+    font-size: 0.8rem;
+  }
 }
 
 .skill-bar {

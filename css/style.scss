@@ -199,7 +199,7 @@ $sideWidth: 50px;
 
     &.section--hello {
         background-color: #52fd7d;
-        color: #181818;
+        color: #000000;
     }
 
     &.section--intro {
@@ -209,7 +209,7 @@ $sideWidth: 50px;
 
     &.section--about {
         background-color: $primary;
-        color: white;
+        color: rgb(255, 255, 255);
 
         svg {
             fill: $primary;
@@ -414,10 +414,14 @@ p {
 }
 
 .skill>p {
-    font-size: 18px;
+    font-size: 0.8rem;
     font-weight: 700;
     color: #1a1716;
     margin: 0;
+
+    @media (min-width: 30rem) {
+        font-size: 0.8rem;
+    }
 }
 
 .skill:before {
@@ -446,12 +450,15 @@ p {
 
 .skill-bar span {
     position: absolute;
-    border-top: 5px solid #f4392f;
     top: -30px;
     padding: 0;
-    font-size: 18px;
+    font-size: 0.8rem;
     padding: 3px 0;
     font-weight: 500;
+
+    @media (min-width: 30rem) {
+        font-size: 0.8rem;
+    }
 }
 
 .skill-bar {
