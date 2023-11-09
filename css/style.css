@@ -459,6 +459,15 @@ p a:hover {
   opacity: 0.7;
 }
 
+.skill-box {
+  width: 100%;
+}
+@media (min-width: 30rem) {
+  .skill-box {
+    width: 100%;
+  }
+}
+
 .skill {
   margin-bottom: 35px;
   position: relative;

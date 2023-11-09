@@ -405,6 +405,13 @@ p {
 
 }
 
+.skill-box {
+    width: 100%;
+
+    @media (min-width: 30rem) {
+        width: 100%;
+    }
+}
 
 .skill {
     margin-bottom: 35px;
