@@ -89,7 +89,8 @@ $sideWidth: 50px;
     }
 
     .top {
-        top: $sideWidth * .5;
+        top: $sideWidth * 2;
+        bottom: $sideWidth * .5;
         text-align: right;
         color: black;
     }
@@ -721,4 +722,18 @@ p {
 .github-source i {
     font-size: 50px;
     color: #000
+}
+
+.dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #6c6c6c;
+    display: inline-block;
+    cursor: pointer;
+}
+
+/* 활성화된 도트 스타일 */
+.dot.active {
+    background-color: #ff0000;
 }

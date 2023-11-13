@@ -1,3 +1,4 @@
+@charset "UTF-8";
 html {
   box-sizing: border-box;
   font-family: "ff-meta-serif-web-pro", serif;
@@ -161,7 +162,8 @@ a {
   word-spacing: 0.5rem;
 }
 .side .top {
-  top: 25px;
+  top: 100px;
+  bottom: 25px;
   text-align: right;
   color: black;
 }
@@ -765,6 +767,20 @@ p a:hover {
 .github-source i {
   font-size: 50px;
   color: #000;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #6c6c6c;
+  display: inline-block;
+  cursor: pointer;
+}
+
+/* 활성화된 도트 스타일 */
+.dot.active {
+  background-color: #ff0000;
 }
 
 /*# sourceMappingURL=style.css.map */
