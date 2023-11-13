@@ -251,7 +251,7 @@ a {
 }
 .section .section__inner {
   height: 100%;
-  max-width: 800px;
+  max-width: 1000px;
   margin: auto auto auto 0;
 }
 .section.section--hello {
@@ -261,6 +261,15 @@ a {
 .section.section--intro {
   background-color: white;
   color: #555;
+}
+.section.section--intro .img-responsive {
+  width: 35%;
+  margin-right: 20px;
+}
+.section.section--intro .intro-content {
+  width: 100%;
+  display: flex;
+  align-items: center;
 }
 .section.section--about {
   background-color: #de5f5f;
@@ -329,7 +338,7 @@ h4,
 .h5 {
   font-family: "nimbus-sans", sans-serif;
   font-weight: bold;
-  margin: 0 0 1em;
+  margin: 0 0 0.5em;
   line-height: 1;
   letter-spacing: -1px;
 }
@@ -438,12 +447,12 @@ p a:hover {
 
 .lead {
   display: block;
-  font-size: 0.7rem;
+  font-size: 0.6rem;
   margin: 0;
 }
 @media (min-width: 30rem) {
   .lead {
-    font-size: 0.7rem;
+    font-size: 0.5rem;
   }
 }
 
@@ -519,7 +528,7 @@ p a:hover {
 
 /* SKILL 1 */
 .skill1 {
-  width: 80%;
+  width: 95%;
 }
 
 .skill-bar span {
@@ -546,7 +555,7 @@ p a:hover {
 
 /* SKILL 2 */
 .skill2 {
-  width: 80%;
+  width: 90%;
 }
 
 .skill2 .skill-count2 {
@@ -555,7 +564,7 @@ p a:hover {
 
 /* SKILL 3 */
 .skill3 {
-  width: 60%;
+  width: 70%;
 }
 
 .skill3 .skill-count3 {
@@ -564,7 +573,7 @@ p a:hover {
 
 /* SKILL 4 */
 .skill4 {
-  width: 65%;
+  width: 70%;
 }
 
 .skill4 .skill-count4 {
@@ -573,7 +582,7 @@ p a:hover {
 
 /* SKILL 5 */
 .skill5 {
-  width: 80%;
+  width: 60%;
 }
 
 .skill5 .skill-count5 {
@@ -582,7 +591,7 @@ p a:hover {
 
 /* SKILL 6 */
 .skill6 {
-  width: 70%;
+  width: 65%;
 }
 
 .skill6 .skill-count6 {
@@ -591,7 +600,7 @@ p a:hover {
 
 /* SKILL 7 */
 .skill7 {
-  width: 80%;
+  width: 65%;
 }
 
 .skill7 .skill-count7 {
@@ -600,7 +609,7 @@ p a:hover {
 
 /* SKILL 8 */
 .skill8 {
-  width: 80%;
+  width: 70%;
 }
 
 .skill8 .skill-count8 {
@@ -627,7 +636,7 @@ p a:hover {
 
 /* SKILL 11 */
 .skill11 {
-  width: 80%;
+  width: 90%;
 }
 
 .skill11 .skill-count11 {
@@ -645,7 +654,7 @@ p a:hover {
 
 /* SKILL 13 */
 .skill13 {
-  width: 80%;
+  width: 75%;
 }
 
 .skill13 .skill-count13 {
@@ -654,7 +663,7 @@ p a:hover {
 
 /* SKILL 14 */
 .skill14 {
-  width: 80%;
+  width: 85%;
 }
 
 .skill14 .skill-count14 {
@@ -672,7 +681,7 @@ p a:hover {
 
 /* SKILL 16 */
 .skill16 {
-  width: 80%;
+  width: 85%;
 }
 
 .skill16 .skill-count16 {
@@ -681,7 +690,7 @@ p a:hover {
 
 /* SKILL 17 */
 .skill17 {
-  width: 80%;
+  width: 90%;
 }
 
 .skill17 .skill-count17 {
@@ -690,7 +699,7 @@ p a:hover {
 
 /* SKILL 18 */
 .skill18 {
-  width: 80%;
+  width: 70%;
 }
 
 .skill18 .skill-count18 {
@@ -708,7 +717,7 @@ p a:hover {
 
 /* SKILL 20 */
 .skill20 {
-  width: 80%;
+  width: 90%;
 }
 
 .skill20 .skill-count20 {
@@ -717,7 +726,7 @@ p a:hover {
 
 /* SKILL 21 */
 .skill21 {
-  width: 80%;
+  width: 75%;
 }
 
 .skill21 .skill-count21 {
@@ -726,7 +735,7 @@ p a:hover {
 
 /* SKILL 22 */
 .skill22 {
-  width: 80%;
+  width: 60%;
 }
 
 .skill22 .skill-count22 {
@@ -735,7 +744,7 @@ p a:hover {
 
 /* SKILL 23 */
 .skill23 {
-  width: 80%;
+  width: 70%;
 }
 
 .skill23 .skill-count23 {
