@@ -201,12 +201,12 @@ $sideWidth: 50px;
 
 
     &.section--hello {
-        background-color: #52fd7d;
+        background-color: #8ecae6;
         color: #000000;
     }
 
     &.section--intro {
-        background-color: white;
+        background-color: 219ebc;
         color: $black;
 
         .img-responsive {
@@ -224,11 +224,11 @@ $sideWidth: 50px;
     }
 
     &.section--about {
-        background-color: $primary;
+        background-color: #023047;
         color: rgb(255, 255, 255);
 
         svg {
-            fill: $primary;
+            fill: #023047;
         }
     }
 
@@ -257,7 +257,7 @@ $sideWidth: 50px;
     }
 
     &.section--portfolio3 {
-        background-color: rgb(16, 107, 192);
+        background-color: #588157;
         color: rgb(255, 255, 255);
 
         svg {
@@ -728,12 +728,12 @@ p {
     width: 8px;
     height: 8px;
     border-radius: 50%;
-    background-color: #6c6c6c;
+    background-color: #e5e5e5;
     display: inline-block;
     cursor: pointer;
 }
 
 /* 활성화된 도트 스타일 */
 .dot.active {
-    background-color: #ff0000;
+    background-color: #9b5de5;
 }

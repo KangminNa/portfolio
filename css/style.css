@@ -257,11 +257,11 @@ a {
   margin: auto auto auto 0;
 }
 .section.section--hello {
-  background-color: #52fd7d;
+  background-color: #8ecae6;
   color: #000000;
 }
 .section.section--intro {
-  background-color: white;
+  background-color: 219ebc;
   color: #555;
 }
 .section.section--intro .img-responsive {
@@ -274,11 +274,11 @@ a {
   align-items: center;
 }
 .section.section--about {
-  background-color: #de5f5f;
+  background-color: #023047;
   color: rgb(255, 255, 255);
 }
 .section.section--about svg {
-  fill: #de5f5f;
+  fill: #023047;
 }
 .section.section--clients {
   background-color: rgb(14, 149, 183);
@@ -300,7 +300,7 @@ a {
   bottom: -50px;
 }
 .section.section--portfolio3 {
-  background-color: rgb(16, 107, 192);
+  background-color: #588157;
   color: rgb(255, 255, 255);
 }
 .section.section--portfolio3 svg {
@@ -773,14 +773,14 @@ p a:hover {
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background-color: #6c6c6c;
+  background-color: #e5e5e5;
   display: inline-block;
   cursor: pointer;
 }
 
 /* 활성화된 도트 스타일 */
 .dot.active {
-  background-color: #ff0000;
+  background-color: #9b5de5;
 }
 
 /*# sourceMappingURL=style.css.map */
